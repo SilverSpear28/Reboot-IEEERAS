@@ -1,0 +1,134 @@
+@charset "utf-8";
+/* CSS Document */
+body .Webpage8{font-family: 'Montserrat',sans-serif;
+box-sizing: border-box;
+/*background-image: url("../../New folder/background 2.png")*/}
+	.Webpage8 h2{
+		padding-top: 20px;
+		text-align: center;
+		font-size: 300%;
+		font-weight: bold;
+	}
+.Webpage8 input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.Webpage8 input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.Webpage8 input[type=submit]:hover {
+  background-color: transparent;
+  color:black;
+}
+
+.Webpage8 .container {
+  border-radius: 5px;
+  padding: 2% 25%;
+}
+@media(max-width:1024px){
+		.Webpage8 h2{
+		padding-top: 14.22px;
+		text-align: center;
+		font-size: 42.666px;
+		font-weight: bold;
+	}
+.Webpage8 input[type=text], select, textarea {
+  width: 100%;
+  padding: 7.11px;
+  border: 1px solid #ccc;
+  border-radius: 2.84px;
+  box-sizing: border-box;
+  margin-top: 4.2667px;
+  margin-bottom: 11.3777px;
+  resize: vertical;
+}
+
+.Webpage8 input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 8.533px 14.22px;
+  border: none;
+  border-radius: 2.845px;
+  cursor: pointer;
+}
+.Webpage8 .container {
+  border-radius: 3.55px;
+  padding: 2% 25%;
+}
+}
+@media(max-width:786px){
+		.Webpage8 h2{
+		padding-top: 10px;
+		text-align: center;
+		font-size: 30px;
+		font-weight: bold;
+	}
+.Webpage8 input[type=text], select, textarea {
+  width: 100%;
+  padding: 6px;
+  border: 0.5px solid #ccc;
+  border-radius: 2px;
+  box-sizing: border-box;
+  margin-top: 3px;
+  margin-bottom: 8px;
+  resize: vertical;
+}
+
+.Webpage8 input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.Webpage8 .container {
+  border-radius: 2.5px;
+  padding: 2% 25%;
+}
+}
+@media(max-width:426px)
+{
+	.Webpage8 h2{
+		padding-top: 10px;
+		text-align: center;
+		font-size: 30px;
+		font-weight: bold;
+	}
+.Webpage8 input[type=text], select, textarea {
+  width: 100%;
+  padding: 6px;
+  border: 0.5px solid #ccc;
+  border-radius: 2px;
+  box-sizing: border-box;
+  margin-top: 3px;
+  margin-bottom: 8px;
+  resize: vertical;
+}
+
+.Webpage8 input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.Webpage8 .container {
+  border-radius: 2.5px;
+  padding: 3%;
+}
+}

@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+
+body .Webpage2{
+  padding-bottom:200px;
+  background-size: contain;
+  background-image: url("../../New folder/background-pandawhy1.png");
+  background-repeat: repeat-x;
+  background-position: center;
+}
+.Webpage2	.textheading{
+	font-size: 300%;
+	font-family: 'Montserrat', sans-serif;
+	margin:0;
+	padding-left: 45%;
+	padding-top: 10%;
+	font-weight: bold;
+	line-height: 100%;
+	padding-right: 5% ;
+	}
+.Webpage2	.first{
+		font-size: 120%;
+		margin:0;
+		padding-left: 45%;
+		font-family: 'Montserrat', sans-serif;
+			padding-right: 5% ;
+}
+@media(max-width:1024px){
+.Webpage2	.textheading{
+	font-size: 50px;
+	font-family: 'Montserrat', sans-serif;
+	margin:0;
+	padding-left: 45%;
+	padding-top: 10%;
+	font-weight: bold;
+	line-height: 100%;
+	padding-right: 5% ;
+	}
+.Webpage2	.first{
+		font-size: 80%;
+		margin:0;
+		padding-left: 45%;
+		font-family: 'Montserrat', sans-serif;
+			padding-right: 5% ;
+}
+}
+@media(max-width:768px){
+.Webpage2	.textheading{
+	font-size: 250%;
+	font-family: 'Montserrat', sans-serif;
+	margin:0;
+	padding-left: 45%;
+	padding-top: 10%;
+	font-weight: bold;
+	line-height: 100%;
+	padding-right: 5% ;
+	}
+.Webpage2	.first{
+		font-size: 60%;
+		margin:0;
+		padding-left: 45%;
+		font-family: 'Montserrat', sans-serif;
+			padding-right: 5% ;
+}
+}
+@media(max-width:621px){
+	body .Webpage2{
+		padding-bottom: 0px;
+	}
+	.Webpage2 .ni{
+		background-color: white;
+  background-size: contain;
+  background-image: url("../../New folder/web2.png");
+  background-repeat:repeat-x;
+}
+.Webpage2	.textheading{
+	text-align:center;
+	font-size: 30px;
+	font-family: 'Montserrat', sans-serif;
+	margin:0;
+	padding-left: 6%;
+	padding-top: 10%;
+	font-weight: bold;
+	line-height: 100%;
+	}
+.Webpage2	.first{
+	    text-align:center;
+	    padding-left: 6%;
+		font-size: 50%;
+		margin:0;
+		font-family: 'Montserrat', sans-serif;
+}
+}

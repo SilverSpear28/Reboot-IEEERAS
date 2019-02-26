@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+	.Webpage4 img{
+		position:absolute;
+		padding-left: 70px;
+		padding-top: 100px;
+		z-index:-1;
+		
+	}
+	.Webpage4 .disaster{
+	padding-top: 200px;
+	margin-left: 700px;
+	color: black;
+	font-size: 60px;
+	font-family: 'Montserrat',sans-serif;
+	font-weight: bold;
+	}
+

@@ -1,0 +1,270 @@
+@charset "utf-8";
+/* CSS Document */
+body .Webpage1 {
+	padding-bottom: 10%;
+	background-image: url("first.png");
+	background-size: contain;
+	font-family: 'Montserrat',sans-serif;
+	background-repeat: no-repeat;
+}
+.Webpage1 .quote{
+	margin:0;
+	font-family: 'Montserrat',sans-serif;
+	color: gray;
+	font-size: 140%;
+	padding-left:13.2%;
+}
+.Webpage1 .second{
+	font-size: 100%;
+	padding-left: 13.2%;
+	color: grey;
+	padding-top: 23%;
+	}
+@media(max-width:1024px){
+	.Webpage1 .quote{
+	margin:0;
+	font-family: 'Montserrat',sans-serif;
+	color: gray;
+	font-size: 100%;
+	padding-left:13.2%;
+}
+.Webpage1 .second{
+	font-size:80%;
+	padding-left: 13.2%;
+	color: grey;
+	padding-top: 16%;
+	}
+}
+@media(max-width:768px){
+	.Webpage1 .quote{
+	margin:0;
+	font-family: 'Montserrat',sans-serif;
+	color: gray;
+	font-size: 50%;
+	padding-left:13.2%;
+}
+.Webpage1 .second{
+	font-size: 40%;
+	padding-left: 13.2%;
+	color: grey;
+	padding-top: 15%;
+	}
+}
+.Webpage1	.MyButton {
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 100%;
+	background: #3366cc;
+	color: #fff;
+	border: 1px solid #3366cc;
+	border-radius: 10px;
+	padding: 10px;
+}
+.Webpage1 input.MyButton:hover {
+	color: white;
+	background: #182060;
+	border: 1px solid #000000;
+	padding: 10px;
+}
+.Webpage1	.forpadding{
+		margin-top: 2%;
+		margin-left: 13.2%;
+	}
+@media(max-width:1024px){
+       .Webpage1	.forpadding{
+		margin-top: 2%;
+		margin-left: 13.2%;
+	}
+	.Webpage1	.MyButton {
+	font-size: 80%;
+	border: 0.71px solid #3366cc;
+	border-radius: 7.11px;
+	padding: 7.11px;
+}
+}
+@media(max-width:768px){
+       .Webpage1	.forpadding{
+		margin-top: 2%;
+		margin-left: 13.2%;
+	}
+	.Webpage1	.MyButton {
+	font-size: 50%;
+	border: 0.533px solid #3366cc;
+	border-radius: 5.33px;
+	padding: 5.33px;
+}
+}
+
+.Webpage1 #clockdiv{
+	padding-left: 12%;
+	font-family: sans-serif;
+	color: black;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 30px;
+}
+
+.Webpage1 #clockdiv > div{
+	border-radius: 3px;
+	display: inline-block;
+}
+
+.Webpage1 #clockdiv div > span{
+	padding: 15px;
+	display: inline-block;
+}
+
+.Webpage1 .smalltext{
+	padding-top: 5px;
+	font-size: 16px;
+}
+@media(max-width:1024px){
+	.Webpage1 #clockdiv{
+	padding-left: 12%;
+	font-family: sans-serif;
+	color: black;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 21.33px;
+}
+
+.Webpage1 #clockdiv > div{
+	padding: .6944%;
+	border-radius: 2.13px;
+	display: inline-block;
+}
+
+.Webpage1 #clockdiv div > span{
+	padding: 10.66px;
+	border-radius: 2.133px;
+	display: inline-block;
+}
+
+.Webpage1 .smalltext{
+	padding-top: 3.55px;
+	font-size: 11.377px;
+}
+}
+@media(max-width:786px){
+	.Webpage1 #clockdiv{
+	padding-left: 12%;
+	font-family: sans-serif;
+	color: black;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 15.168px;
+}
+
+.Webpage1 #clockdiv > div{
+	padding: .6944%;
+	border-radius: 1.59px;
+	display: inline-block;
+}
+
+.Webpage1 #clockdiv div > span{
+	padding: 7.998px;
+	border-radius: 1.59px;
+	display: inline-block;
+}
+
+.Webpage1 .smalltext{
+	padding-top: 2.6625px;
+	font-size: 8.53px;
+}
+}
+@media(max-width:426px){
+	.Webpage1 .ichi{
+	background-color: white;
+	background-image: url("../New folder/Untitled-2.png");
+	background-position: center;
+	background-size: contain;
+	font-family: 'Montserrat',sans-serif;
+	background-repeat: no-repeat;
+}
+	.Webpage1 .quote{
+	text-align:center;
+	margin:0;
+	font-family: 'Montserrat',sans-serif;
+	color: black;
+	font-size: 50%;
+	padding:0;
+}
+.Webpage1 .second{
+	text-align:center;
+	font-size: 50%;
+	color: black;
+	padding:35% 0 0 0;
+	}
+	.Webpage1	.MyButton {
+	font-size: 50%;
+	border: 0.533px solid #3366cc;
+	border-radius: 5.33px;
+	padding: 5.33px;
+}
+.Webpage1	.forpadding{	
+		margin: 2% 0 0 36.3%;
+}
+	.Webpage1 #clockdiv{
+	padding-left: 37%;
+	font-family: sans-serif;
+	color: black;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 8.41px;
+}
+
+.Webpage1 #clockdiv > div{
+	padding: .6944%;
+	border-radius: 1.59px;
+	display: inline-block;
+}
+
+.Webpage1 #clockdiv div > span{
+	padding: 7.998px;
+	border-radius: 1.59px;
+	display: inline-block;
+}
+
+.Webpage1 .smalltext{
+	padding-top: 2.6625px;
+	font-size: 4.73px;
+}
+}
+@media(max-width:376px){
+	.Webpage1	.forpadding{	
+		margin: 2% 0 0 34.3%;
+}
+	.Webpage1 #clockdiv{
+		padding-left: 35.5%;
+	}
+}
+@media(max-width:321px){
+	.Webpage1	.forpadding{	
+		margin: 2% 0 0 31.3%;
+}
+	.Webpage1 #clockdiv{
+		padding-left: 33%;
+	}
+}
+.navbar{
+	font-family: 'Montserrat',sans-serif;
+	font-size:120%;
+}
+.section-header .section-title {
+	font-family: 'Montserrat',sans-serif;
+  font-size: 32px;
+  color: #111;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.section-header .section-description {
+  text-align: center;
+  padding-bottom: 40px;
+  color: #999;
+}

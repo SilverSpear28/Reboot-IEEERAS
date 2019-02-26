@@ -1,0 +1,300 @@
+@charset "utf-8";
+/* CSS Document */
+/*FAQS*/
+body .Webpage61{
+	margin-top:auto;
+	background-image: url("../New folder/background 2.png");
+	margin:0;
+	background-size:auto;
+	font-family:"montserrat";
+}
+.Webpage61 h1{
+	padding-top: 3%;
+	text-align: center;
+	font-family: 'Montserrat',sans-serif;
+	font-weight: bold;
+	font-size: 300%;
+	margin: 3% 0 0;
+	display: block;
+}
+.Webpage61 .container {
+    padding-left: 25px;
+    max-width: 75%;
+    margin: 0 auto;
+    padding: 2% 0 1%;
+    width: 100%;
+}
+.Webpage61 .acc h3 {
+    font-size: 100%;
+    background-color: rgba(0,0,0,0.6);
+    color: #fff;
+    padding: 1.75%;
+    margin: 0;
+    cursor: pointer;
+    font-family: 'Montserrat',sans-serif;
+    letter-spacing: 2px;
+    position: relative;
+}
+
+.acc h3:after {
+    content: '+';
+    position: absolute;
+    right: 3%;
+	font-size: 200%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.Webpage61 .acc.active h3:after {
+	content: '-';
+}
+
+.Webpage61 .content {
+    background-color: transparent ;
+    display: none;
+}
+
+.Webpage61 .content-inner {
+	font-size: 100%;
+    padding: 2%;
+}
+
+.Webpage61 .content * {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.Webpage61 .acc {
+    border-bottom: 1px solid #fff;
+}
+.Webpage61 .content-inner p{
+	font-family: 'Montserrat',sans-serif;
+}
+@media(max-width:1024px){
+	.Webpage61 h1{
+	padding-top: 3%;
+	text-align: center;
+	font-family: 'Montserrat',sans-serif;
+	font-weight: bold;
+	font-size: 300%;
+	margin: 3% 0 0;
+	display: block;
+}
+.Webpage61 .container {
+    align-content: center;
+    max-width: 75%;
+    margin: 0 auto;
+    padding: 2% 0 1%;
+    width: 100%;
+}
+.Webpage61 .acc h3 {
+    font-size: 100%;
+    background-color: rgba(0,0,0,0.6);
+    color: #fff;
+    padding: 1.75%;
+    margin: 0;
+    cursor: pointer;
+    font-family: 'Montserrat',sans-serif;
+    letter-spacing: 2px;
+    position: relative;
+}
+
+.acc h3:after {
+    content: '+';
+    position: absolute;
+    right: 3%;
+	font-size: 200%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.Webpage61 .acc.active h3:after {
+	content: '-';
+}
+
+.Webpage61 .content {
+    background-color: transparent ;
+    display: none;
+}
+
+.Webpage61 .content-inner {
+	font-size: 100%;
+    padding: 2%;
+}
+
+.Webpage61 .content * {
+    margin: 0;
+    line-height: 1.5;
+}
+}
+
+@media(max-width:768px){
+	.Webpage61 h1{
+	padding-top: 3%;
+	text-align: center;
+	font-family: 'Montserrat',sans-serif;
+	font-weight: bold;
+	font-size: 300%;
+	margin: 3% 0 0;
+	display: block;
+}
+.Webpage61 .container {
+	align-content: center;
+    max-width: 75%;
+    margin: 0 auto;
+    padding: 2% 0 1%;
+    width: 100%;
+}
+.Webpage61 .acc h3 {
+    font-size: 100%;
+    background-color: rgba(0,0,0,0.6);
+    color: #fff;
+    padding: 1.75%;
+    margin: 0;
+    cursor: pointer;
+    font-family: 'Montserrat',sans-serif;
+    letter-spacing: 2px;
+    position: relative;
+}
+
+.acc h3:after {
+    content: '+';
+    position: absolute;
+    right: 3%;
+	font-size: 200%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.Webpage61 .acc.active h3:after {
+	content: '-';
+}
+
+.Webpage61 .content {
+    background-color: transparent ;
+    display: none;
+}
+
+.Webpage61 .content-inner {
+	font-size: 80%;
+    padding: 2%;
+}
+
+.Webpage61 .content * {
+    margin: 0;
+    line-height: 1.5;
+}}
+@media(max-width:426px){
+	.Webpage61 h1{
+	padding-top: 3%;
+	text-align: center;
+	font-family: 'Montserrat',sans-serif;
+	font-weight: bold;
+	font-size: 200%;
+	margin: 2% 0 0;
+	display: block;
+}
+.Webpage61 .container {
+	align-content: center;
+    max-width: 75%;
+    margin: 0 auto;
+    padding: 2% 0 1%;
+    width: 100%;
+}
+.Webpage61 .acc h3 {
+    font-size: 75%;
+    background-color: rgba(0,0,0,0.6);
+    color: #fff;
+    padding: 1.75%;
+    margin: 0;
+    cursor: pointer;
+    font-family: 'Montserrat',sans-serif;
+    letter-spacing: 2px;
+    position: relative;
+}
+
+.acc h3:after {
+    content: '+';
+    position: absolute;
+    right: 3%;
+	font-size: 150%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.Webpage61 .acc.active h3:after {
+	content: '-';
+}
+
+.Webpage61 .content {
+    background-color: transparent ;
+    display: none;
+}
+
+.Webpage61 .content-inner {
+	font-size: 60%;
+    padding: 2%;
+}
+
+.Webpage61 .content * {
+    margin: 0;
+    line-height: 1.5;
+}
+}
+@media(max-width:375px){
+	.Webpage61 h1{
+	padding-top: 3%;
+	text-align: center;
+	font-family: 'Montserrat',sans-serif;
+	font-weight: bold;
+	font-size: 125%;
+	margin: 2% 0 0;
+	display: block;
+}
+.Webpage61 .container {
+	align-content: center;
+    max-width: 75%;
+    margin: 0 auto;
+    padding: 2% 0 1%;
+    width: 100%;
+}
+.Webpage61 .acc h3 {
+    font-size: 60%;
+    background-color: rgba(0,0,0,0.6);
+    color: #fff;
+    padding: 1.75%;
+    margin: 0;
+    cursor: pointer;
+    font-family: 'Montserrat',sans-serif;
+    letter-spacing: 2px;
+    position: relative;
+}
+
+.acc h3:after {
+    content: '+';
+    position: absolute;
+    right: 3%;
+	font-size: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.Webpage61 .acc.active h3:after {
+	content: '-';
+}
+
+.Webpage61 .content {
+    background-color: transparent ;
+    display: none;
+}
+
+.Webpage61 .content-inner {
+	font-size: 40%;
+    padding: 2%;
+}
+
+.Webpage61 .content * {
+    margin: 0;
+    line-height: 1.5;
+}
+}

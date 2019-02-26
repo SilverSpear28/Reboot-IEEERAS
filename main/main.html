@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" media="screen" href="smain.css">
+</head>
+<body>
+<div id="navbar">
+  <a href="main.html">HOME</a>
+     <div class="dropdown">
+    <button class="dropbtn">ABOUT 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="../about/WhyReboot/WhyReboot.html" >Why Reboot</a>
+      <a href="../about/themes/theme.html">Theme</a>
+      <a href="../about/schedule/schedule.html">Schedule</a>
+      <a href="../about/contact us/ContactUs.html">Contact us</a>
+    </div>
+  </div>
+    <a href="../Organisers/IEEERAS.html">ORGANISERS</a>
+  <a href="">FAQ</a>
+
+  <a href="../sponsors/sponsors.html">SPONSORS</a>
+   
+</div>
+<p class="second"><strong> VIT UNIVERSITY<br>
+  MARCH 22-24.2019 </strong></p>
+<form class="forpadding">
+  <input class="MyButton" type="button" value="Register" onclick="" />
+</form>
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+</body>
+</html>
+ 
